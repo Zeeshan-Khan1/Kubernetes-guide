@@ -57,43 +57,6 @@ Let's see what happens when you run `kubectl create deployment nginx --image=ngi
 
 This entire process is a perfect example of Kubernetes' **reconciliation loop**: constantly checking the actual state against the desired state and making changes to align them.
 
-## Visualizing the Flow
-+-----------------------------------------------------------------------+
-| MASTER NODE |
-| +----------------+ +---------------------+ +------------------+ |
-| | API Server |<-->| ETCD | | Controller | |
-| | (Front Door) | | (Cluster Memory) | | Manager | |
-| +-------+--------+ +---------------------+ | (Supervisor) | |
-| ^ +------------------+ |
-| | (kubectl, status updates) ^ |
-| | | |
-| +-------+--------+ | |
-| | Scheduler |-----------------------------------+ |
-| | (Smart Assigner)| (Watches for unscheduled Pods) |
-| +----------------+ |
-+-----------------------------------------------------------------------+
-^
-| (Pod assignment)
-|
-+-----------------------------------------------------------------------+
-| WORKER NODE |
-| +-----------------------------------------------------------------+ |
-| | +-------------+ +-------------------+ +----------------+ | |
-| | | Kubelet |<-->| Container | | Kube-Proxy | | |
-| | | (Foreman) | | Runtime (Docker)| | (Network Traf.)| | |
-| | +-------------+ +-------------------+ +----------------+ | |
-| | | | | |
-| | +-------v-------+ Pod Net | | |
-| | | Pod | Traffic | | |
-| | | +---------+ | Flow | | |
-| | | | Container| | <-----------------------------------------+ | |
-| | | +---------+ | | | |
-| | +---------------+ | | |
-| +-----------------------------------------------------------------+ |
-+-----------------------------------------------------------------------+
-
-text
-
 ## Key Terminology Summary
 
 *   **Master / Control Plane:** The brain of the cluster (API Server, Scheduler, Controller Manager, ETCD).
