@@ -84,4 +84,4 @@ Now that you understand what Kubernetes is, we'll proceed to setting up your set
 
 ---
 
-**Next Section:** Section 3: setting up Kubernetes Environment (coming soon)
+**Next Section:** Section 3: setting up Kubernetes Environment.
