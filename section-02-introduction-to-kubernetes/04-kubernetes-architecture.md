@@ -66,4 +66,4 @@ This entire process is a perfect example of Kubernetes' **reconciliation loop**:
 
 ---
 
-**Next:** [Kubernetes Objects: Pods, Deployments, and Services](./06-kubernetes-objects-pods-deployments-services.md) (coming soon)
+**Next:** [secion 3: Setting up Kubernetes Environment](./secion-3:-Setting-up-Kubernetes-Environment.md)
