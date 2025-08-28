@@ -83,5 +83,4 @@ To begin working with Kubernetes, you can:
 Now that you understand what Kubernetes is, we'll proceed to setting up your setting up Kubernetes Environment in the next section.
 
 ---
-
-**Next Section:** Section 3: setting up Kubernetes Environment.
+**Up Next:** [Section 3: setting up Kubernetes Environment](./03:-setting-up-Kubernetes-Environment.md)
