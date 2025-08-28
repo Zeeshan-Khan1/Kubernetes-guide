@@ -83,4 +83,4 @@ To begin working with Kubernetes, you can:
 Now that you understand what Kubernetes is, we'll proceed to setting up your setting up Kubernetes Environment in the next section.
 
 ---
-**Up Next:** [Kubernetes Architecture](./04-kubernetes-Architecture.md)
+**Up Next:** [Kubernetes Architecture](./04-kubernetes-architecture.md)
