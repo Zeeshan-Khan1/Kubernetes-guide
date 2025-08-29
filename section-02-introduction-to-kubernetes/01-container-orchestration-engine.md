@@ -46,7 +46,7 @@ As applications grow from a few containers to hundreds or thousands, managing th
 - **Desired State**: The configuration that defines how your application should run
 - **Reconciliation Loop**: The continuous process that ensures actual state matches desired state
 - **Self-Healing**: Automatic replacement of failed containers
-- **Scalability**: Ability to handle increased load by adding resources
+- **Scalability**: Ability to handle increased load by adding resources.
 
 ## Next Steps
 
