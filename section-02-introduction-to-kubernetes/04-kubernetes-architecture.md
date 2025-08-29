@@ -37,7 +37,7 @@ Worker Nodes are the machines (VMs or physical servers) that run your actual app
 | **Kube-Proxy** | The **Network Traffic Controller** | Maintains network rules on the Node. It enables communication to and from your Pods, providing load-balancing for services within the cluster. |
 | **Container Runtime** | The **Engine** | The software that actually runs the containers (e.g., Docker, containerd, CRI-O). Kubernetes tells the runtime to start and stop containers via the Kubelet. |
 | **Pod** | The **Smallest Deployable Unit** | A logical grouping of one or more containers that share storage and network resources. This is what gets scheduled onto a Node. |
-| **Containers** | The **Actual Application** | Your packaged application and its dependencies, running in an isolated environment. |
+| **Containers** | The **Actual Application** | Your packaged application and its dependencies, running in an isolated environment.. |
 
 ---
 
