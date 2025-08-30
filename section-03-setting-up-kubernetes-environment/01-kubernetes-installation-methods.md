@@ -1,7 +1,5 @@
 # 6. Kubernetes Installation Methods
 
-**Estimated Duration:** 5 minutes
-
 ## Choosing Your Kubernetes Installation Path
 
 There are multiple ways to set up Kubernetes, each suited for different use cases:
