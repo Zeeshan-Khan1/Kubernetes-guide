@@ -6,7 +6,7 @@ A comprehensive learning repository for mastering Kubernetes concepts, architect
 
 - **Section 1**: Course Overview
 - **Section 2**: Introduction to Kubernetes
-- More sections coming soon...
+- **Section 3**: Setting up Kubernetes Environment
 
 ## Prerequisites
 
