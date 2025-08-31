@@ -4,9 +4,11 @@ A comprehensive learning repository for mastering Kubernetes concepts, architect
 
 ## Course Structure
 
-- **Section 1**: Course Overview
-- **Section 2**: Introduction to Kubernetes
-- **Section 3**: Setting up Kubernetes Environment
+- **Section 01**: Course Overview
+- **Section 02**: Introduction to Kubernetes
+- **Section 03**: Setting up Kubernetes Environment
+- **section 04**: Pod 
+- **Section 05**: Controllers
 
 ## Prerequisites
 
